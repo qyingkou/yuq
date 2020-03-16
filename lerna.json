@@ -1,0 +1,25 @@
+{
+  "npmClient": "npm",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "ignore-file",
+        "*.md"
+      ],
+      "message": "chore(release):publish %s",
+      "registry": "https://npm.pkg.github.com"
+    },
+    "bootstrap": {
+      "ignore": "",
+      "npmClientArgs": [
+        "--no-package-lock"
+      ],
+      "scope": []
+    }
+  },
+  "packages": [
+    "packages/*",
+    "src/**"
+  ],
+  "version": "0.0.0"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@yuq/components-mobile",
+  "version": "0.0.0",
+  "description": "yuq's default components for mobile",
+  "keywords": [
+    "yuq",
+    "component",
+    "default",
+    "mobile"
+  ],
+  "author": "qingkooo <qingkooo@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "private": true,
+  "main": "lib/components-mobile.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qyingkou/yuq.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
